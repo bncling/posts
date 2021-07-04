@@ -1,0 +1,7 @@
+baseURL = "https://bncling.github.io/"
+languageCode = "en-us"
+title = "Ben's Math Site"
+
+theme = "hugo-paper"
+
+sectionPagesMenu = "main"
