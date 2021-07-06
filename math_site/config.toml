@@ -1,7 +1,33 @@
 baseURL = "https://bncling.github.io/"
 languageCode = "en-us"
-title = "Ben's Math Site"
+title = "Ben Clingenpeel"
 
 theme = "hugo-paper"
 
-sectionPagesMenu = "main"
+[menu]
+
+	[[menu.main]]
+	name = "Posts"
+	identifier = "posts"
+	url = "/posts/"
+
+	[[menu.main]]
+	name = "Math Wikis"
+	identifier = "math-wikis"
+	url = "/math-wiki/"
+
+	[[menu.main]]
+	name = "Tags"
+	identifier = "tags"
+	url = "/tags/"
+
+	[[menu.main]]
+	name = "About"
+	identifier = "about"
+	url = "/about"
+
+[markup]
+	defaultMarkdownHandler = "pandoc"
+
+[taxonomies]
+	tag = "tags"

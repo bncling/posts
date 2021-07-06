@@ -8,7 +8,7 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 python3 /Users/benclingenpeel/Desktop/Math\!/obs_math/regex.py
 
 # Build the project.
-hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo -t hugo-paper # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 cd public
