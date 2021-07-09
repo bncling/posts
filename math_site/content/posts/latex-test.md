@@ -5,6 +5,11 @@ draft: false
 tags: ["test"]
 ---
 
-This is some content here! I've got some $LaTeX$!
+This is some content here! I've got some $\LaTeX$!
 
 $$\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}$$
+
+This next one is going to be *extremely* long to test overflow:
+
+$$hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh$$
+

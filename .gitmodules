@@ -1,4 +1,4 @@
 [submodule "math_site/public"]
 	path = math_site/public
-	url = https://github.com/bncling/bncling.github.io.git
+	url = https://github.com/bncling.github.io.git
 	branch = main

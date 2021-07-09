@@ -7,7 +7,7 @@
 
 {{.Content}}
 
-{{- $paginator := .Paginate (where $scope.RegularPages ".Params.type" "!=" "page") }}
+{{- $paginator := .Paginate (where $scope.Pages ".Params.type" "!=" "page")}}
 
 {{- range $index, $page := $paginator.Pages }}
 

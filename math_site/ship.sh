@@ -6,6 +6,9 @@ set -e
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 python3 /Users/benclingenpeel/Desktop/Math\!/obs_math/regex.py
+python3 /Users/benclingenpeel/Desktop/Math\!/obs_math/update\ work.py
+
+rm -rf public/*
 
 # Build the project.
 hugo -t hugo-paper # if using a theme, replace with `hugo -t <YOURTHEME>`

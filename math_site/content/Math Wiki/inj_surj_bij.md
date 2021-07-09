@@ -1,5 +1,5 @@
 ---
-title: "Cardinality and sizes of infinity"
+title: "Injectivity, surjectivity, and bijectivity"
 date: 2021-07-08
 draft: false
 tags: ["miscmath", "coming_soon"]

@@ -1,6 +1,6 @@
 ---
 title: "The Moore plane"
-date: 2021-07-05
+date: 2021-07-06
 draft: false
 tags: ["topology"]
 
@@ -17,5 +17,5 @@ Let $\mathbb{H} = \{(x,y) \mid x,y \in \mathbb{R}, y \geq 0\}$. The **Moore plan
 #### Separation properties
 - [$T_1$-space]({{< ref t1.md >}}) (since it's Hausdorff)
 - [Hausdorff]({{< ref hausdorff.md >}}) (since it's $T_3$)
-- [Regular]({{< ref regular.md >}}) and a [$T_3$-space]({{< ref t3.md >}}) (proof)
+- [Regular]({{< ref regular.md >}}) and a [$T_3$-space]({{< ref t3.md >}}) ([proof](\work.pdf#page=20))
 - **Not** [normal]({{< ref normal.md >}}) or a [$T_4$-space]({{< ref t4.md >}})

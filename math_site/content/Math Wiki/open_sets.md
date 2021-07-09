@@ -1,6 +1,6 @@
 ---
 title: "Open sets"
-date: 2021-07-05
+date: 2021-07-06
 draft: false
 tags: ["topology"]
 
@@ -12,7 +12,7 @@ In a [topological space]({{< ref topology_def.md >}}) $(X, \mathcal{T})$, an ope
 
 ## Properties of open sets
 
-- A set $U$ is open if and only if for each point $p \in U$, there exists an open set $U_p$ such that $p \in U_p \subset U$. This is Theorem 2.3 in: Theorem 2.3 from [my self-study work]({{< ref top_selfstudy.md >}}).
+- [Theorem 2.3:](\work.pdf#page=8) A set $U$ is open if and only if for each point $p \in U$, there exists an open set $U_p$ such that $p \in U_p \subset U$.
 - If $\{U_\alpha\}_{\alpha \in \lambda}$ is a collection of open sets, then $\bigcup_{\alpha \in \lambda} A_\alpha$ is open, but $\bigcap_{\alpha \in \lambda} A_\alpha$ need not be open. This is part of the definition of a [topology]({{< ref topology_def.md >}}).
 - If $U$ and $V$ are open, then $U \cap V$ is open.
-- The complement $X - U$ of an open set is [closed]({{< ref closed_sets.md >}}). This is Theorem 2.14 from [my self-study work]({{< ref top_selfstudy.md >}}).
+- [Theorem 2.14:](\work.pdf#page=11) The complement $X - U$ of an open set is [closed]({{< ref closed_sets.md >}}).

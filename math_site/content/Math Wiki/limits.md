@@ -1,6 +1,6 @@
 ---
 title: "Limits"
-date: 2021-07-05
+date: 2021-07-07
 draft: false
 tags: ["calculus","topology"]
 
@@ -9,10 +9,18 @@ tags: ["calculus","topology"]
 Intuitively, "$\lim \limits_{x \to a} f(x) = L$" means that the outputs of a [function]({{< ref function.md >}}) $f$ approaches the value $L$ as the inputs approach the value $a$.
 
 ## The $\varepsilon$-$\delta$ definition of a limit (and variants)
-Let $f: \mathbb{R} \to \mathbb{R}$ be a function and let $a,L \in \mathbb{R}$. 
-- $\lim \limits_{x \to a} f(x) = L$ if and only if for every $\varepsilon > 0$, there exists a $\delta > 0$ such that $0 < ) - L) = L$ if and only if for every $\varepsilon > 0$, there exists an $N \in \mathbb{N}$ such that $x > N$ implies that $) - L) = \infty$ if and only if for every $N \in N$, there exists a $\delta > 0$ such that $0 < ) > N$.
+Let $f: \mathbb{R} \to \mathbb{R}$ be a function and let $a,L \in \mathbb{R}$.
 
-We say that a [sequence]({{< ref sequence.md >}}) $(a_n)$ converges to a limit $L \in \mathbb{R}$ and write that $\lim \limits_{n \to \infty} a_n = L$ if and only if for every $\varepsilon > 0$, there exists an $N \in \mathbb{N}$ such that $n > N$ implies that $) = c \lim \limits_{x \to a} f(x)$.
+- $\lim \limits_{x \to a} f(x) = L$ if and only if for every $\varepsilon > 0$, there exists a $\delta > 0$ such that $0 < \vert x - a \vert < \delta$ implies that $\vert f(x) - L \vert < \varepsilon$.
+- $\lim \limits_{x \to \infty} f(x) = L$ if and only if for every $\varepsilon > 0$, there exists an $N \in \mathbb{N}$ such that $x > N$ implies that $\vert f(x) - L \vert < \varepsilon.$
+- $\lim \limits_{x \to a} f(x) = \infty$ if and only if for every $N \in N$, there exists a $\delta > 0$ such that $0 < \vert x - a \vert < \delta$ implies that $f(x) > N$.
+
+We say that a [sequence]({{< ref sequence.md >}}) $(a_n)$ converges to a limit $L \in \mathbb{R}$ and write that $\lim \limits_{n \to \infty} a_n = L$ if and only if for every $\varepsilon > 0$, there exists an $N \in \mathbb{N}$ such that $n > N$ implies that $\vert a_n - L \vert < \varepsilon.$
+
+## Limit laws
+Let $f,g: \mathbb{R} \to \mathbb{R}$ be functions and let $a,c \in \mathbb{R}$. Then
+
+- $\lim \limits_{x \to a} c f(x) = c \lim \limits_{x \to a} f(x)$.
 - $\lim \limits_{x \to a} [f(x) \pm g(x)] = \lim \limits_{x \to a} f(x) \pm \lim \limits_{x \to a} g(x)$.
 - $\lim \limits_{x \to a} [f(x) g(x)] = \left( \lim \limits_{x \to a} f(x) \right) \left( \lim \limits_{x \to a} g(x) \right)$.
 - $\lim \limits_{x \to a} [f(x) / g(x)] = \frac{\lim \limits_{x \to a} f(x)}{\lim \limits_{x \to a} g(x)}$ if $\lim \limits_{x \to a} g(x) \neq 0$.

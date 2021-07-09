@@ -1,6 +1,6 @@
 ---
 title: "Continuity"
-date: 2021-07-05
+date: 2021-07-07
 draft: false
 tags: ["calculus"]
 
@@ -8,7 +8,7 @@ tags: ["calculus"]
 
 Continuous functions can be drawn without picking up your pencil. 
 
-## The $\varepsilon$-$\delta$ definition, limit related definition
+## The $\varepsilon$-$\delta$, limit related definition
 A [function]({{< ref function.md >}}) $f: \mathcal{D} \to \mathbb{R}$ is **continuous at a point $c \in \mathcal{D}$** if and only if the [limit]({{< ref limits.md >}}) of $f$ at $c$ exists and $\lim \limits_{x \to c} f(x) = f(c)$.
 A function $f: \mathcal{D} \to \mathbb{R}$ is **continuous** if and only if it is continuous at the point $c$ for all $c \in \mathcal{D}$. 
 

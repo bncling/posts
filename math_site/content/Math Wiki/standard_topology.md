@@ -1,6 +1,6 @@
 ---
 title: "The standard topology"
-date: 2021-07-05
+date: 2021-07-06
 draft: false
 tags: ["topology"]
 
@@ -19,11 +19,11 @@ The **standard topology** $\mathcal{T}_{\text{std}}$ on $\mathbb{R}^n$ contains 
 One [basis]({{< ref basis.md >}}) for the standard topology on $\mathbb{R}$ is $\mathcal{B} = \{(a,b) \mid a,b \in \mathbb{R}\}$.
 
 ## Properties
-Theorem 2.31: If $p$ is a [limit point]({{< ref limit_points.md >}}) of a set $A$ in $(\mathbb{R}^n, \mathcal{T}_\text{std})$, then there exists a [sequence]({{< ref sequence.md >}}) of points in $A$ that converges to $p$.
+[Theorem 2.31:](\work.pdf#page=17) If $p$ is a [limit point]({{< ref limit_points.md >}}) of a set $A$ in $(\mathbb{R}^n, \mathcal{T}_\text{std})$, then there exists a [sequence]({{< ref sequence.md >}}) of points in $A$ that converges to $p$.
 
 #### Separation Properties
 - [$T_1$-space]({{< ref t1.md >}}) (since it's Hausdorff)
 - [Hausdorff]({{< ref hausdorff.md >}}) (since it's $T_3$)
 - [Regular]({{< ref regular.md >}}) and a [$T_3$-space]({{< ref t3.md >}}) (since it's $T_4$)
-- [Normal]({{< ref normal.md >}}) and a [$T_4$-space]({{< ref t4.md >}}) (proof for $\mathbb{R}^2$ that generalizes)
+- [Normal]({{< ref normal.md >}}) and a [$T_4$-space]({{< ref t4.md >}}) ([proof](\work.pdf#page=30) for $\mathbb{R}^2$ that generalizes)
 

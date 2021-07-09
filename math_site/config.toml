@@ -26,6 +26,11 @@ theme = "hugo-paper"
 	identifier = "about"
 	url = "/about"
 
+	[[menu.main]]
+	name = "Animations"
+	identifier = "animations"
+	url = "/animations/"
+
 [markup]
 	defaultMarkdownHandler = "pandoc"
 

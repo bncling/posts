@@ -3,7 +3,7 @@ title: "What is Elliptic Curve Cryptography?"
 date: 2021-07-05T18:07:46-04:00
 draft: false
 author: Ben Clingenpeel
-tags: ["elliptic curves","cryptography"]
+tags: ["elliptic_curves","cryptography"]
 ---
 
 The following is an assignment for a writing class aimed at a non-math audience. For a more rigorous look at elliptic curve cryptography, look at... elsewhere, I dunno.

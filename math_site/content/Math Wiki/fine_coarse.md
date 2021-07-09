@@ -1,6 +1,6 @@
 ---
 title: "Fineness and Coarseness"
-date: 2021-07-05
+date: 2021-07-07
 draft: false
 tags: ["topology"]
 
@@ -16,4 +16,4 @@ Let $X$ be a set and let $\mathcal{T}_1$ and $\mathcal{T}_2$ be topologies on $X
 
 The [lower limit topology]({{< ref lower_limit_topology.md >}}) on $\mathbb{R}$ is strictly finer than the [standard topology]({{< ref standard_topology.md >}}) on $\mathbb{R}$. 
 
-Not all topologies are comparable. For instance, the [standard topology]({{< ref standard_topology.md >}}) on $\mathbb{R}$ is neither finer nor coarser than the [countable complement topology]({{< ref countable_complement_topology.md >}}). See Exercise 3.6.
+Not all topologies are comparable. For instance, the [standard topology]({{< ref standard_topology.md >}}) on $\mathbb{R}$ is neither finer nor coarser than the [countable complement topology]({{< ref countable_complement_topology.md >}}). See [Exercise 3.6](\work.pdf#page=19).

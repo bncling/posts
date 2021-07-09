@@ -2,7 +2,7 @@
 
 <header class="page-header"><h1>Browse posts by tag</h1></header>
 
-{{- $paginator := .Paginate (.Pages) }}
+{{- $paginator := .Paginate ( .Pages ) }}
 
 {{- range $index, $page := $paginator.Pages }}
 

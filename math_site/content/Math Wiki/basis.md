@@ -1,6 +1,6 @@
 ---
 title: "Basis for a topological space"
-date: 2021-07-05
+date: 2021-07-07
 draft: false
 tags: ["topology"]
 
@@ -14,11 +14,11 @@ Let $(X, \T)$ be a [topological space]({{< ref topology_def.md >}}) and let $\B 
 If $\mathcal{B}$ is a basis, we call $B \in \B$ a **basic open set**.
 
 ## Properties
-Theorem 3.1: A set $\mathcal{B}$ is the basis for a *given* topology $\mathcal{T}$ on a set $X$ if and only if 
+[Theorem 3.1](\work.pdf#page=17): A set $\mathcal{B}$ is the basis for a *given* topology $\mathcal{T}$ on a set $X$ if and only if 
 1. $\mathcal{B} \subset \mathcal{T}$, and 
 2. for each set $U \in \mathcal{T}$ and point $p \in U$, there exists a $V \in \mathcal{B}$ such that $p \in V \subset U$.
 
-Theorem 3.3: A set $\mathcal{B}$ is the basis for *some* topology on a set $X$ if and only if
+[Theorem 3.3](\work.pdf#page=19): A set $\mathcal{B}$ is the basis for *some* topology on a set $X$ if and only if
 1. each point of $X$ is in some element of $\mathcal{B}$, and 
 2. if $U$ and $V$ are sets in $\mathcal{B}$ and $p \in U \cap V$, then there is a set $W \in \mathcal{B}$ such that $p \in W \subset U \cap V$. 
 

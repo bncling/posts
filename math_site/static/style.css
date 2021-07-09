@@ -168,6 +168,7 @@ img {
 }
 .menu {
   display: flex;
+  white-space: nowrap;
   list-style: none;
   word-break: keep-all;
   overflow-x: auto;
@@ -254,7 +255,7 @@ img {
 }
 .tag-entry .entry-content,
 .tag-entry .entry-footer {
-  display: none;
+  display:none;
 }
 .entry-header h2 {
   font-size: 24px;
@@ -265,7 +266,7 @@ img {
   color: var(--secondary);
   font-size: 14px;
   line-height: 1.6;
-  overflow: hidden;
+  overflow: hidden; 
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
@@ -528,4 +529,10 @@ img {
   height: 80%;
   font-size: 160px;
   font-weight: 700;
+}
+/* math
+-------------------------------------------------- */
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
 }
