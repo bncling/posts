@@ -1,6 +1,6 @@
 ---
 title: "The topologist's sine curve"
-date: 2021-07-05
+date: 2021-07-17
 draft: false
 tags: ["topology"]
 
@@ -14,6 +14,6 @@ In $(\mathbb{R}^2, \mathcal{T}_\text{std})$, the **topologist's sine curve** is 
 ## Properties
 Every point in the set $\{(0,y) \mid -1 \leq y \leq 1 \}$ is a [limit point]({{< ref limit_points.md >}}) of the topologist's sine curve. 
 
-Since none of the above points are in $S$, $S$ is not [closed]({{< ref closed_sets.md >}}). It is also not [open]({{< ref open_sets.md >}}) in this [topology]({{< ref topology_def.md >}}) since it is not the union of the open balls that form the [basis]({{< ref basis.md >}}) of the topology. 
+Since none of the above points are in $S$, $S$ is not [closed]({{< ref closed_sets.md >}}). It is also not [open]({{< ref open_sets.md >}}) in this [topology]({{< ref topology_def.md >}}) since it is not the union of the open balls that form the [basis]({{< ref top_basis.md >}}) of the topology. 
 
 Its [closure]({{< ref closure.md >}}) in $(\mathbb{R}^2, \mathcal{T}_\text{std})$ is $S \cup \{(0,y) \mid -1 \leq y \leq 1 \}$.

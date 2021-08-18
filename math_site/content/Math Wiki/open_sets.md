@@ -1,11 +1,10 @@
 ---
 title: "Open sets"
-date: 2021-07-06
+date: 2021-07-12
 draft: false
 tags: ["topology"]
 
 ---
-
 
 ## Definition
 In a [topological space]({{< ref topology_def.md >}}) $(X, \mathcal{T})$, an open set $U$ is a set with $U \in \mathcal{T}$. 

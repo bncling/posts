@@ -1,8 +1,8 @@
 ---
 title: "Power sets"
-date: 2021-07-08
+date: 2021-07-12
 draft: false
-tags: ["miscmath"]
+tags: ["miscmath", "coming_soon"]
 
 ---
 

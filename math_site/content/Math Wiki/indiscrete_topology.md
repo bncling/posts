@@ -1,6 +1,6 @@
 ---
 title: "Indiscrete topology"
-date: 2021-07-05
+date: 2021-07-09
 draft: false
 tags: ["topology"]
 
@@ -13,3 +13,10 @@ Let $X$ be a set. The **indiscrete topology** is $\mathcal{T} = \{\emptyset, X\}
 
 ## Properties
 By definition, the only sets in the indiscrete topology that are [open]({{< ref open_sets.md >}}) are $X$ and $\emptyset$, and these are also the only [closed sets]({{< ref closed_sets.md >}}).
+
+#### Separation Properties
+- **Not** a [$T_1$-space]({{< ref t1.md >}}) 
+- **Not** [Hausdorff]({{< ref hausdorff.md >}})
+- **Not** [regular]({{< ref regular.md >}}) or a [$T_3$-space]({{< ref t3.md >}}) 
+- **Not** [normal]({{< ref normal.md >}}) or a [$T_4$-space]({{< ref t4.md >}}) 
+

@@ -1,6 +1,6 @@
 ---
 title: "The discrete topology"
-date: 2021-07-05
+date: 2021-07-09
 draft: false
 tags: ["topology"]
 
@@ -15,3 +15,10 @@ Let $X$ be a set. Then the discrete topology on $X$ contains all subsets of $X$,
 If $(X, \mathcal{T})$ is a topological space, then it is a discrete space if and only if all singletons are open. 
 
 All sets in the discrete topology are both [closed]({{< ref closed_sets.md >}}) and [open]({{< ref open_sets.md >}}).
+
+#### Separation Properties
+- [$T_1$-space]({{< ref t1.md >}}) 
+- [Hausdorff]({{< ref hausdorff.md >}})
+- [Regular]({{< ref regular.md >}}) and a [$T_3$-space]({{< ref t3.md >}}) 
+- [Normal]({{< ref normal.md >}}) or a [$T_4$-space]({{< ref t4.md >}}) 
+

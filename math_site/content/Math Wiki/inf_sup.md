@@ -1,6 +1,6 @@
 ---
 title: "Infimum and supremum"
-date: 2021-07-05
+date: 2021-07-12
 draft: false
 tags: ["calculus"]
 
@@ -18,12 +18,17 @@ Let $A \subset \mathbb{R}$.
 - We say $c \in \mathbb{R}$ is the **infimum** of $A$ if and only if it is the greatest lower bound of $A$. 
 
 ## Properties
-- Bounded does not mean finite. 
-- Maxima and minuma of subsets need not exist.
-- Suprema and infima of subsets need not exist or be contained in the subset if they do exist.
+Bounded does not mean finite. 
+
+Maxima and minuma of subsets need not exist.
+
+Suprema and infima of subsets need not exist or be contained in the subset if they do exist.
 
 ## Examples
-- $\mathbb{N}$, $\mathbb{Z}$, $\mathbb{Q}$, and $\mathbb{R}$ are all unbounded (that is, not bounded).
-- The sets $\mathbb{Q} \cap [0, \sqrt{2}]$ and $(0,1)$ have no maximum elements, but they have suprema $\sqrt{2}$ and $1$, respectively. 
+$\mathbb{N}$, $\mathbb{Z}$, $\mathbb{Q}$, and $\mathbb{R}$ are all unbounded (that is, not bounded).
+
+The sets $\mathbb{Q} \cap [0, \sqrt{2}]$ and $(0,1)$ have no maximum elements, but they have suprema $\sqrt{2}$ and $1$, respectively. 
+
+If $f: \mathcal{D} \to \R$ is a [function]({{< ref function.md >}}), we say that it is (un)bounded (above/below) if its image (the set $f(\mathcal{D}) = \{f(x) \mid x \in \mathcal{D}\}$) is (un)bounded (above/below).
 
 

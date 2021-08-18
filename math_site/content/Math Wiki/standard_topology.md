@@ -1,6 +1,6 @@
 ---
 title: "The standard topology"
-date: 2021-07-06
+date: 2021-07-17
 draft: false
 tags: ["topology"]
 
@@ -16,7 +16,7 @@ An **open ball** of radius $\varepsilon > 0$ around a point $p \in \mathbb{R}^n$
 The **standard topology** $\mathcal{T}_{\text{std}}$ on $\mathbb{R}^n$ contains all sets $U \subset \mathbb{R}^n$ such that for all $p \in U$, there exists an $\varepsilon_p > 0$ such that $B(p, \varepsilon_p) \subset U$.
 
 ## Basis
-One [basis]({{< ref basis.md >}}) for the standard topology on $\mathbb{R}$ is $\mathcal{B} = \{(a,b) \mid a,b \in \mathbb{R}\}$.
+One [basis]({{< ref top_basis.md >}}) for the standard topology on $\mathbb{R}$ is $\mathcal{B} = \{(a,b) \mid a,b \in \mathbb{R}\}$.
 
 ## Properties
 [Theorem 2.31:](\work.pdf#page=17) If $p$ is a [limit point]({{< ref limit_points.md >}}) of a set $A$ in $(\mathbb{R}^n, \mathcal{T}_\text{std})$, then there exists a [sequence]({{< ref sequence.md >}}) of points in $A$ that converges to $p$.

@@ -1,12 +1,12 @@
 ---
 title: "Sequences"
-date: 2021-07-05
+date: 2021-07-17
 draft: false
 tags: ["calculus","topology"]
 
 ---
 
-An infinite list of things.
+They're like [lists]({{< ref lists.md >}}) but they're infinitely long. 
 
 ## Definitions
 For [real numbers]({{< ref real_numbers.md >}}), a **sequence** is a function $f: \mathbb{N} \to \mathbb{R}$, where the image of the number $n$ under $f$ is typically called $a_n$. The sequence is written by listing its images: $a_1, a_2, \dots$ or for short, $\{a_n\}$.

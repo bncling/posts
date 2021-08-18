@@ -2,7 +2,6 @@
 title: "What is Elliptic Curve Cryptography?"
 date: 2021-07-05T18:07:46-04:00
 draft: false
-author: Ben Clingenpeel
 tags: ["elliptic_curves","cryptography"]
 ---
 

@@ -11,8 +11,8 @@
 :root {
   --gap: 24px;
   --content-gap: 20px;
-  --nav-width: 1080px;
-  --main-width: 760px;
+  --nav-width: 1200px;
+  --main-width: 900px;
   --header-height: 60px;
   --footer-height: 60px;
   --radius: 8px;
@@ -535,4 +535,7 @@ img {
 .katex-display {
   overflow-x: auto;
   overflow-y: hidden;
+}
+.katex {
+    font: normal 1.05em KaTeX_Main,Times New Roman,serif;
 }

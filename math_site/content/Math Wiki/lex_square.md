@@ -1,6 +1,6 @@
 ---
 title: "The lexicographically ordered square"
-date: 2021-07-07
+date: 2021-07-11
 draft: false
 tags: ["topology"]
 
@@ -14,5 +14,10 @@ The unit square $[0,1] \times [0,1]$ is totally ordered by the [lexicographic or
 ## Properties
 Many sets have very interesting, unexpected closures. See [Exercise 3.21](\work.pdf#page=24).
 
-#### Separation properties
+#### Separation Properties
+- [$T_1$-space]({{< ref t1.md >}})
+- [Hausdorff]({{< ref hausdorff.md >}})
+- [Regular]({{< ref regular.md >}}) and a [$T_3$-space]({{< ref t3.md >}})
+- [Normal]({{< ref normal.md >}}) and a [$T_4$-space]({{< ref t4.md >}}) 
 
+These follow from the fact that this is a space with an [order topology]({{< ref order_topology.md >}}).

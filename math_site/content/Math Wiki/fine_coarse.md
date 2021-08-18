@@ -1,11 +1,10 @@
 ---
 title: "Fineness and Coarseness"
-date: 2021-07-07
+date: 2021-07-12
 draft: false
 tags: ["topology"]
 
 ---
-
 
 Given two [topologies]({{< ref topology_def.md >}}) on a set $X$, we can compare them with the notions of fineness and coarseness. You can think about the fineness of a topology determining the amount you can see (you "see" the open sets) when looking at the set $X$. If a topology is very fine, you can see a lot of open sets, but if the topology is very coarse, things are "blurry" because there are few open sets.
 

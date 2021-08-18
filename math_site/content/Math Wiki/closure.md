@@ -1,6 +1,6 @@
 ---
 title: "Closures"
-date: 2021-07-07
+date: 2021-07-11
 draft: false
 tags: ["topology"]
 
@@ -17,8 +17,11 @@ Let $(X, \mathcal{T})$ be a [topological space]({{< ref topology_def.md >}}) wit
 [Theorem 2.20:](\work.pdf#page=13) The closure of a set $A$ is the smallest closed set containing $A$, that is, it is the intersection of all closed sets containing $A$: $$\overline{A} = \bigcap_{B \supset A, \, B \in \mathcal{C}} B$$ where $\mathcal{C}$ is the collection of all closed sets in $(X, \mathcal{T})$.
 
 [Theorem 2.22:](\work.pdf#page=14) If $A$ and $B$ are sets in a topological space $(X, \mathcal{T})$, then 
+
 - $A \subset B \implies \overline{A} \subset \overline{B}$
 - $\overline{A \cup B} = \overline{A} \cup \overline{B}$
+
+For a collection of sets $\{A_\alpha\}_{\alpha \in \lambda}$ we also have that $$ \overline{\bigcap_{\alpha \in \lambda} A_\alpha} \subset \bigcap_{\alpha \in \lambda} \overline{A_\alpha}. $$ This is because the left side is the intersection of all closed sets containing $\bigcap_{\alpha \in \lambda} A_\alpha$ (Theorem 2.20) and the right hand side is one of these closed sets since $A_\alpha \subset \overline{A_\alpha}$ for all $\alpha \in \lambda$ and therefore $\bigcap_{\alpha \in \lambda} A_\alpha \subset \bigcap_{\alpha \in \lambda} \overline{A_\alpha}$.
 
 [Lemma 2.28:](\work.pdf#page=15) The closure of a set $A$ in a topological space $(X, \mathcal{T})$ is $\overline{A} = X - (X - A)^\circ$ where $B^\circ$ denotes the [interior]({{< ref interior.md >}}) of the set $B$.
 
