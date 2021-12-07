@@ -1,13 +1,13 @@
 ---
 title: "Vector spaces"
-date: 2021-08-12
+date: 2021-12-05
 draft: false
 tags: ["linear_algebra"]
 
 ---
 
 ## Definitions
-A **vector space** over a field $\F$ (here either [$\R$]({{< ref real_numbers.md >}}) or [$\C$]({{< ref complex_numbers.md >}})) is a set $V$, together with addition ($+$) and scalar multiplication ($\cdot$) operations such that the following properties hold:
+A **vector space** over a [field]({{< ref fields.md >}}) $\F$ (here either [$\R$]({{< ref real_numbers.md >}}) or [$\C$]({{< ref complex_numbers.md >}})) is a set $V$, together with addition ($+$) and scalar multiplication ($\cdot$) operations such that the following properties hold:
 
 - **commutativity:** $u + v = v + u$ for all $u, v \in V$;
 - **associativity:** $(u + v) + w = u + (v + w)$ and $(ab)v = a(bv)$ for all $u,v,w \in V$, $a,b \in \F$;

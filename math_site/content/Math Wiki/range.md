@@ -1,12 +1,12 @@
 ---
 title: "Range"
-date: 2021-08-12
+date: 2021-12-05
 draft: false
 tags: ["linear_algebra"]
 
 ---
 
-Also known as the image...
+Also known as the [image]({{< ref function.md >}})...
 
 ## Definition
 Let $T \in \Lin(V,W)$ be a [linear map]({{< ref linear_maps.md >}}) between [vector spaces]({{< ref vector_space.md >}}) $V$ and $W$. The **range of $T$**, denoted $\range T$, is the subset of $W$ containing vectors of the form $Tv$ for some $v \in V$, that is, $$\range T = \{Tv \mid v \in V\}.$$

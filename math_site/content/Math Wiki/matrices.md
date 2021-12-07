@@ -1,6 +1,6 @@
 ---
 title: "Matrices"
-date: 2021-08-14
+date: 2021-12-03
 draft: false
 tags: ["linear_algebra"]
 
@@ -15,7 +15,7 @@ A **matrix** is a rectangular array with $m$ rows and $n$ columns for positive i
 
 For a matrix $A$, we denote the entry in the $i$th row and $j$th column by $A_{i,j}$. We also denote the $1$-by-$n$ matrix consisting of the $i$th row of $A$ by $A_{i, \cdot}$ and the $m$-by-$1$ matrix consisting of the $j$th column of $A$ by $A_{\cdot, j}$.
 
-We denote the vector space of $m$-by-$n$ matrices as $\F^{m,n}$. This space has [dimension]({{< ref linalg_dimension.md >}}) $mn$.
+We denote the vector space of $m$-by-$n$ matrices as $\F^{m,n}$, or sometimes by $\M_{m \times n} (\F)$. This space has [dimension]({{< ref linalg_dimension.md >}}) $mn$.
 
 ## Matrix of a linear map
 If $V$ and $W$ are finite-dimensional [vector spaces]({{< ref vector_space.md >}}) and $T \in \Lin(V, W)$ is a [linear map]({{< ref linear_maps.md >}}), then $V$ has a [basis]({{< ref linalg_basis.md >}}) $(v_1, \dots, v_n)$ and $W$ has a basis $(w_1, \dots w_m)$. For each $i = 1, \dots, n$, the vector $Tv_i \in W$ can be written as a linear combination $Tv_i = a_{1,i} w_1 + \dots + a_{m,i} w_m$.  Then the matrix of $T$ with respect to the bases $(v_1, \dots, v_m)$ and $(w_1, \dots, w_m)$ is $$\M(T, (v_1, \dots, v_n), (w_1, \dots, w_m)) = \begin{bmatrix}

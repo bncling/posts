@@ -23,6 +23,8 @@ Let $U$ be a subspace of $V$. Then we can define addition and scalar multiplicat
 
 **(3.87) Theorem:** With the rules for addition and scalar multiplication above, $V / U$ is a vector space. 
 
+**(3.89) Theorem:** If $V$ is a [finite-dimensional]({{< ref linalg_dimension.md >}}) vector space with a subspace $U$, then $\dim V / U = \dim V - \dim U$.
+
 **(3.91) Proposition:** Let $T \in \Lin(V, W)$. Then the map $\tilde{T}$ defined above has the following properties:
 
 - $\tilde{T}$ is a linear map from $V / (\nl T)$ to $W$;
@@ -32,3 +34,5 @@ Let $U$ be a subspace of $V$. Then we can define addition and scalar multiplicat
 
 ## Example
 If $V = \R^2$, then $U = \{(x, 2x) \mid x \in \R\}$, the line through the origin with slope $2$, is a subspace of $V$ and $V / U$ is the set of all lines with slope $2$.
+
+If $T \in \Lin(\R^2, \R^2)$ is the map defined by $T(a,b) = (a - \frac{b}{2}, 0)$, then $\nl T = U$, the subspace given above, and $\range T = \{(x, 0) \mid x \in \R\}$, the $x$-axis. Then $V / (\nl T)$ is the space of all lines with slope $2$, and the map $\tilde{T}: \R^2 / U \to \R^2$ takes one of these lines to its $x$-intercept. Verifying 3.89 and 3.91 above, we see that $\dim (\R^2 / U) = 1$, the dimension of the plane $\R^2$ minus the dimension of the line $U$. Since $\range T$ is the $x$-axis with dimension $1$, we see that $\R^2 / U$ is indeed isomorphic to $\range T$.

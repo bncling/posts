@@ -4,7 +4,6 @@ date: 2021-07-04T15:02:17-04:00
 draft: false
 ---
 
+I'm an undergraduate student beginning to think about math grad school. In addition to my math courses, I've been doing some self-study work and have been finding it helpful to write small explanations of the various topics I come across. These explanations are collected on this site as my own personal math wiki. 
 
-This is a place where I'll be collecting some math notes. 
-
-I'm still working on getting all of the $\LaTeX$ to render nicely.
+I'm currently wrapping up my fifth semester, and am working on putting together a bunch of group theory wikis as a means of studying. 

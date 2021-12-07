@@ -22,11 +22,6 @@ theme = "hugo-paper"
 	url = "/tags/"
 
 	[[menu.main]]
-	name = "About"
-	identifier = "about"
-	url = "/about"
-
-	[[menu.main]]
 	name = "Animations"
 	identifier = "animations"
 	url = "/animations/"
