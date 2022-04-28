@@ -1,6 +1,6 @@
 ---
-title: "My Topology self-study work"
-date: 2021-07-12
+title: "My topology self-study work"
+date: 2021-12-22
 draft: false
 tags: ["miscmath","topology"]
 

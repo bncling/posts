@@ -1,6 +1,6 @@
 ---
 title: "The lexicographically ordered square"
-date: 2021-07-11
+date: 2021-12-25
 draft: false
 tags: ["topology"]
 
@@ -18,6 +18,9 @@ Many sets have very interesting, unexpected closures. See [Exercise 3.21](\work.
 - [$T_1$-space]({{< ref t1.md >}})
 - [Hausdorff]({{< ref hausdorff.md >}})
 - [Regular]({{< ref regular.md >}}) and a [$T_3$-space]({{< ref t3.md >}})
-- [Normal]({{< ref normal.md >}}) and a [$T_4$-space]({{< ref t4.md >}}) 
 
 These follow from the fact that this is a space with an [order topology]({{< ref order_topology.md >}}).
+
+#### Countability Properties
+- **Not** [separable]({{< ref separable_spaces.md >}})
+- **Not** [2<sup>nd</sup> countable]({{< ref second_countable.md >}})

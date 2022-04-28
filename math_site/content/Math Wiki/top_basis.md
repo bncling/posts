@@ -1,6 +1,6 @@
 ---
 title: "Basis for a topological space"
-date: 2021-07-11
+date: 2022-02-01
 draft: false
 tags: ["topology"]
 
@@ -11,7 +11,7 @@ Similar to the ideas behind bases in other areas of math.
 ## Definition
 Let $(X, \T)$ be a [topological space]({{< ref topology_def.md >}}) and let $\B \subset \T$. $\B$ is a **basis** for the topology $\T$ if and only if every open set is the union of elements of $\B$.
 
-If $\mathcal{B}$ is a basis, we call $B \in \B$ a **basic open set**.
+If $\B$ is a basis, we call $B \in \B$ a **basic open set**.
 
 ## Properties
 [Theorem 3.1](\work.pdf#page=17): A set $\mathcal{B}$ is the basis for a *given* topology $\mathcal{T}$ on a set $X$ if and only if 

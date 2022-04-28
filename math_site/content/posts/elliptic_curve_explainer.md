@@ -5,7 +5,7 @@ draft: false
 tags: ["elliptic_curves","cryptography"]
 ---
 
-The following is an assignment for a writing class aimed at a non-math audience. For a more rigorous look at elliptic curve cryptography, look at... elsewhere, I dunno.
+The following is an assignment for a writing class aimed at a non-math audience. 
 
 ### Elliptic curves
 

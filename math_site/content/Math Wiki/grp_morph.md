@@ -1,6 +1,6 @@
 ---
-title: "Group Homomorphisms"
-date: 2021-12-07
+title: "Group homomorphisms"
+date: 2021-12-22
 draft: false
 tags: ["algebra"]
 

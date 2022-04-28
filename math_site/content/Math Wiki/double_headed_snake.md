@@ -1,6 +1,6 @@
 ---
 title: "The Double Headed Snake"
-date: 2021-07-17
+date: 2022-01-09
 draft: false
 tags: ["topology"]
 
@@ -17,3 +17,8 @@ The Double Headed Snake is the [topological space]({{< ref topology_def.md >}}) 
 - **Not** [Hausdorff]({{< ref hausdorff.md >}}) (can't separate $0'$ and $0''$)
 - **Not** [regular]({{< ref regular.md >}}) or a [$T_3$-space]({{< ref t3.md >}})
 - **Not** [normal]({{< ref normal.md >}}) or a [$T_4$-space]({{< ref t4.md >}})
+
+#### Countability Properties
+- [Separable]({{< ref separable_spaces.md >}})
+- [2<sup>nd</sup> countable]({{< ref second_countable.md >}})
+- [1<sup>st</sup> countable]({{< ref first_countable.md >}})

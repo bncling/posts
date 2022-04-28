@@ -1,6 +1,6 @@
 ---
-title: "The Special Linear Group"
-date: 2021-12-05
+title: "The special linear group"
+date: 2021-12-22
 draft: false
 tags: ["algebra"]
 

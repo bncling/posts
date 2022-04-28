@@ -1,6 +1,6 @@
 ---
 title: "Order topology"
-date: 2021-07-17
+date: 2022-03-16
 draft: false
 tags: ["topology"]
 
@@ -16,9 +16,11 @@ If $X$ is a set [totally ordered]({{< ref orderings.md >}}) by a relation $\leq$
 - [$T_1$-space]({{< ref t1.md >}}) (since it's Hausdorff)
 - [Hausdorff]({{< ref hausdorff.md >}}) (since it's $T_3$)
 - [Regular]({{< ref regular.md >}}) and a [$T_3$-space]({{< ref t3.md >}}) (since it's $T_4$)
-- [Normal]({{< ref normal.md >}}) and a [$T_4$-space]({{< ref t4.md >}}) 
+- [Normal]({{< ref normal.md >}}) and a [$T_4$-space]({{< ref t4.md >}})
 
-See [Theorem 4.15](\work.pdf#page=35).
+#### Countability Properties
+- **Not** [separable]({{< ref separable_spaces.md >}})
+- **Not** [2<sup>nd</sup> countable]({{< ref second_countable.md >}})
 
 ## Examples
 [Exercise 3.19:](\work.pdf#page=24) The set $\R$ is totally ordered by the relation $\leq$, and $\R$ with the order topology is the [standard topology]({{< ref standard_topology.md >}}). 

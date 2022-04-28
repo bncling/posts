@@ -1,6 +1,6 @@
 ---
 title: "Open sets"
-date: 2021-07-12
+date: 2022-04-07
 draft: false
 tags: ["topology"]
 
@@ -8,6 +8,8 @@ tags: ["topology"]
 
 ## Definition
 In a [topological space]({{< ref topology_def.md >}}) $(X, \mathcal{T})$, an open set $U$ is a set with $U \in \mathcal{T}$. 
+
+If $p$ is a point in $X$ and $U$ is an open set containing $p$, then $U$ is called a **neighborhood** of $p$. 
 
 ## Properties of open sets
 

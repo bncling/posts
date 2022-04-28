@@ -1,6 +1,6 @@
 ---
-title: "Internal Direct Products"
-date: 2021-12-07
+title: "Internal direct products"
+date: 2021-12-22
 draft: false
 tags: ["algebra"]
 

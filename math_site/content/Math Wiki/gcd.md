@@ -1,6 +1,6 @@
 ---
-title: "Greatest Common Divisors"
-date: 2021-11-20
+title: "Greatest common divisors"
+date: 2021-12-22
 draft: false
 tags: ["number_theory", "coming_soon"]
 

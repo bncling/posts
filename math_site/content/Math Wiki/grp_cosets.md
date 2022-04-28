@@ -1,8 +1,8 @@
 ---
-title: "Cosets of a Subgroup"
-date: 2021-12-06
+title: "Cosets of a subgroup"
+date: 2021-12-22
 draft: false
-tags: ["algebra", "coming_soon"]
+tags: ["algebra"]
 
 ---
 
@@ -23,7 +23,7 @@ We call the number of distinct left cosets of $H$ in $G$ the **index** of $H$ in
 ## Properties
 Since $gH$ is the equivalence class of $g$, $gH = \{a \in G \mid g \sim_L a\}$, which is the set $$gH = \{a \in G \mid g\inv a \in H\} = \{a \in G \mid g\inv a = h, \, h \in H\} = \{a \in G \mid a = gh, \, h \in H\},$$ which we can further simplify to $gH = \{gh \mid h \in H\}$.
 
-Because (left) cosets are equivalence classes, they partition the group $G$, and because the map $f: H \to gH$ defined by $f(h) =gh$ is a [bijection]({{< ref inj_surj_bij.md >}}), all (left) cosets have the same [cardinality]({{< ref cardinality.md >}}).
+Because (left) cosets are equivalence classes, they [partition]({{< ref set_partitions.md >}}) the group $G$, and because the map $f: H \to gH$ defined by $f(h) =gh$ is a [bijection]({{< ref inj_surj_bij.md >}}), all (left) cosets have the same [cardinality]({{< ref cardinality.md >}}).
 
 For all $a \in G$, $aH = H$ if and only if $a \in H$. 
 

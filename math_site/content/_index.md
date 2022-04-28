@@ -6,4 +6,4 @@ draft: false
 
 I'm an undergraduate student beginning to think about math grad school. In addition to my math courses, I've been doing some self-study work and have been finding it helpful to write small explanations of the various topics I come across. These explanations are collected on this site as my own personal math wiki. 
 
-I'm currently wrapping up my fifth semester, and am working on putting together a bunch of group theory wikis as a means of studying. 
+I'm currently wrapping up my junior year, and am working on putting together some wikis mostly on topology with some algebraic geometry as a means of studying. 

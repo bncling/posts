@@ -1,6 +1,6 @@
 ---
 title: "Subspaces of a vector space"
-date: 2021-08-12
+date: 2021-12-16
 draft: false
 tags: ["linear_algebra"]
 
@@ -24,6 +24,8 @@ But, just to double check...
 - $u \in U$ implies $(-1)u \in U$ since $U$ is closed under scalar multiplication, so every vector in $U$ has an additive inverse;
 - $1u = u$ for all vectors $u \in U$ since vectors in $U$ are also vectors in $V$, in which $1v = v$ for all $v \in V$;
 - the distributive properties hold for vectors in $U$ since vectors in $U$ are also vectors in $V$, a vector space.
+
+These properties also imply that $U$ is a [subgroup]({{< ref subgroups.md >}}) of the [group]({{< ref groups.md >}}) $(V, +)$. 
 
 **Exercise:** The intersection of any collection of subspaces of $V$ is itself a subspace of $V$. 
 

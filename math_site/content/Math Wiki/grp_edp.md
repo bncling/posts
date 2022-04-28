@@ -1,6 +1,6 @@
 ---
-title: "External Direct Products"
-date: 2021-12-06
+title: "External direct products"
+date: 2021-12-22
 draft: false
 tags: ["algebra"]
 

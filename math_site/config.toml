@@ -4,6 +4,8 @@ title = "Ben Clingenpeel"
 
 theme = "hugo-paper"
 
+googleAnalytics = "G-YFLN397NB8"
+
 [menu]
 
 	[[menu.main]]

@@ -1,6 +1,6 @@
 ---
 title: "The discrete topology"
-date: 2021-07-09
+date: 2022-01-09
 draft: false
 tags: ["topology"]
 
@@ -21,4 +21,9 @@ All sets in the discrete topology are both [closed]({{< ref closed_sets.md >}}) 
 - [Hausdorff]({{< ref hausdorff.md >}})
 - [Regular]({{< ref regular.md >}}) and a [$T_3$-space]({{< ref t3.md >}}) 
 - [Normal]({{< ref normal.md >}}) or a [$T_4$-space]({{< ref t4.md >}}) 
+
+#### Countability Properties
+- **Not** [separable]({{< ref separable_spaces.md >}})
+- **Not** [2<sup>nd</sup> countable]({{< ref second_countable.md >}})
+- [1<sup>st</sup> countable]({{< ref first_countable.md >}})
 

@@ -1,6 +1,6 @@
 ---
-title: "The Group of Integers"
-date: 2021-12-04
+title: "The group of integers"
+date: 2021-12-22
 draft: false
 tags: ["algebra"]
 

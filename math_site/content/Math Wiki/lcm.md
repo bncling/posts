@@ -1,6 +1,6 @@
 ---
-title: "Least Common Multiples"
-date: 2021-12-06
+title: "Least common multiples"
+date: 2021-12-22
 draft: false
 tags: ["number_theory", "coming_soon"]
 

@@ -7,6 +7,7 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 python3 /Users/benclingenpeel/Desktop/Math\!/obs_math/regex.py
 python3 /Users/benclingenpeel/Desktop/Math\!/obs_math/update\ work.py
+python3 alph.py
 
 rm -rf public/*
 

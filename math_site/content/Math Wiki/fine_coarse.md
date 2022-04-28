@@ -1,6 +1,6 @@
 ---
-title: "Fineness and Coarseness"
-date: 2021-07-12
+title: "Fineness and coarseness"
+date: 2021-12-22
 draft: false
 tags: ["topology"]
 

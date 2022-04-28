@@ -1,6 +1,6 @@
 ---
-title: "The Alternating Group"
-date: 2021-12-07
+title: "The alternating group"
+date: 2021-12-22
 draft: false
 tags: ["algebra"]
 

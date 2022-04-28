@@ -1,6 +1,6 @@
 ---
 title: "K-topology"
-date: 2021-07-17
+date: 2022-01-09
 draft: false
 tags: ["topology"]
 
@@ -19,3 +19,8 @@ $\Rh$ is [finer]({{< ref fine_coarse.md >}}) than the [standard topology]({{< re
 - [Hausdorff]({{< ref hausdorff.md >}})
 - **Not** [regular]({{< ref regular.md >}}) or [$T_3$]({{< ref t3.md >}}) (can't separate $0$ and $K$)
 - **Not** [normal]({{< ref normal.md >}}) or [$T_4$]({{< ref t4.md >}})
+
+#### Countability Properties
+- [Separable]({{< ref separable_spaces.md >}})
+- [2<sup>nd</sup> countable]({{< ref second_countable.md >}})
+- [1<sup>st</sup> countable]({{< ref first_countable.md >}})

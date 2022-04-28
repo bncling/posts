@@ -1,6 +1,6 @@
 ---
-title: "Order of an Element in a Group"
-date: 2021-12-05
+title: "Order of an element in a group"
+date: 2021-12-22
 draft: false
 tags: ["algebra"]
 

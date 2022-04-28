@@ -1,6 +1,6 @@
 ---
 title: "Vector spaces"
-date: 2021-12-05
+date: 2021-12-09
 draft: false
 tags: ["linear_algebra"]
 
@@ -32,6 +32,8 @@ We call a vector space $V$ **finite dimensional** if some [list]({{< ref lists.m
 **For all $v \in V$, $(-1)v$ is the additive inverse of $v$.** Let $v \in V$. Then $$(-1)v + v = (-1)v + 1v = (-1 + 1)v = 0v = 0. \quad \square$$
 
 **For all $v \in V$, the additive inverse of the additive inverse is $v$, that is$-(-v) = v$.** Note that $-(-v)$ is the additive inverse of $-v$, but also $v$ is the additive inverse of $-v$, so by the uniqueness of additive inverses in a vector space (Proposition 1.26), $-(-v) = v$ for all $v \in V$. $\quad \square$
+
+For a vector space $V$, the set $V$ together with the operation $+$ forms an [abelian]({{< ref abelian.md >}}) [group]({{< ref groups.md >}}).
 
 ## Examples
 $\F^n$ is a finite dimensional vector space with elements that are list of the form $(x_1, x_2, \dots, x_n)$ with $x_i \in \F$ for all $i = 1, 2, \dots, n$.

@@ -1,11 +1,9 @@
 ---
 title: "Subbasis for a topological space"
-date: 2021-07-17
+date: 2021-12-22
 draft: false
 tags: ["topology"]
-
 ---
-
 
 ## Definition
 Let $(X, \T)$ be a [topological space]({{< ref topology_def.md >}}) and let $\Sub \subset \T$.  $\Sub$ is a **subbasis** for the topology $\T$ if and only if the collection $\B$ of all finite intersections of sets in $\Sub$ is a [basis]({{< ref top_basis.md >}}) for $\T$.

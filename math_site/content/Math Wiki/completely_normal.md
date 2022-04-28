@@ -1,6 +1,6 @@
 ---
 title: "Completely normal spaces"
-date: 2021-07-14
+date: 2021-12-22
 draft: false
 tags: ["topology"]
 
@@ -12,7 +12,7 @@ Two sets $A$ and $B$ in a [topological space]({{< ref topology_def.md >}}) are *
 A topological space $(X, \T)$ is **completely normal** if and only if for any two separated sets $A$ and $B$, there exist [open sets]({{< ref open_sets.md >}}) $U$ and $V$ such that $A \subset U$ and $B \subset A$. 
 
 ## Properties
-[Theorem 4.26:](\work.pdf#page=40) A topological space $(X, \T)$ is completely normal if and only if it is [hereditarily normal]({{< ref heredity.md >}}).
+[Theorem 4.26:](\work.pdf#page=38) A topological space $(X, \T)$ is completely normal if and only if it is [hereditarily normal]({{< ref heredity.md >}}).
 
 If a space $(X, \T)$ is [$T_5$]({{< ref t5.md >}}), it is also completely normal by definition.
 

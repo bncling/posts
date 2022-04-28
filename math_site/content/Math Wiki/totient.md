@@ -1,6 +1,6 @@
 ---
-title: "Euler's Totient Function"
-date: 2021-12-03
+title: "Euler's totient function"
+date: 2021-12-22
 draft: false
 tags: ["number_theory"]
 

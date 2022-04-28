@@ -1,6 +1,6 @@
 ---
 title: "Linear maps"
-date: 2021-08-14
+date: 2021-12-15
 draft: false
 tags: ["linear_algebra"]
 
@@ -29,6 +29,8 @@ If $V$ and $W$ are [finite-dimensional]({{< ref linalg_dimension.md >}}) vector 
 **(3.22) Fundamental Theorem of Linear Maps:** If $V$ is a finite-dimensional vector space and $T \in \Lin(V,W)$ is a linear map, then $$\dim V = \dim \, \nl T + \dim \, \range T,$$ where $\nl T$ and $\range T$ denote the [null space]({{< ref null_space.md >}}) and [range]({{< ref range.md >}}) of $T$, respectively.
 
 **(3.61) Theorem:** Let $V$ and $W$ be vector spaces. Then $\dim (\Lin (V,W)) = (\dim V)(\dim W)$.
+
+Since a vector space $(V, +)$ is an [abelian]({{< ref abelian.md >}}) [group]({{< ref groups.md >}}), the additivity condition for linear maps means that linear maps are [group homomorphisms]({{< ref grp_morph.md >}}).
 
 ## Examples
 The zero map $0 \in \Lin (V,W)$ that takes every vector in $V$ to the zero vector in $W$ is a linear map. 

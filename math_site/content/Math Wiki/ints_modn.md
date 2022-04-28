@@ -1,6 +1,6 @@
 ---
-title: "The Group of Integers"
-date: 2021-12-05
+title: "The integers mod $n$"
+date: 2021-12-22
 draft: false
 tags: ["algebra"]
 

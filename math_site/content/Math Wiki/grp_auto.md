@@ -1,6 +1,6 @@
 ---
-title: "Group Automorphisms"
-date: 2021-12-07
+title: "Group automorphisms"
+date: 2021-12-22
 draft: false
 tags: ["algebra"]
 

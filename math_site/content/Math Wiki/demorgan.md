@@ -1,6 +1,6 @@
 ---
-title: "DeMorgan's Laws"
-date: 2021-07-07
+title: "DeMorgan's laws"
+date: 2021-12-22
 draft: false
 tags: ["miscmath"]
 

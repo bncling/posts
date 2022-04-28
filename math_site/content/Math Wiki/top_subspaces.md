@@ -1,6 +1,6 @@
 ---
 title: "Subspaces in topology"
-date: 2021-07-17
+date: 2021-12-22
 draft: false
 tags: ["topology"]
 
@@ -20,11 +20,11 @@ If a set $U$ is open in $(Y, \T_Y)$, it is not necessarily open in $(X, \T)$.
 
 [Theorem 3.30:](\work.pdf#page=26) Let $(Y, \T_Y)$ be a subspace of $(X,\T)$. If $\B$ is a [basis]({{< ref top_basis.md >}}) for $\T$, then $\B_Y = \{B \cap Y \mid B \in \B \}$ is a basis for $\T_Y$.
 
-[Theorems 4.19 and 4.20:](\work.pdf#page=39) Every subspace of a [Hausdorff]({{< ref hausdorff.md >}}) space is Hausdorff and every subspace of a [regular]({{< ref regular.md >}}) space is regular.
+[Theorems 4.19 and 4.20:](\work.pdf#page=36) Every subspace of a [Hausdorff]({{< ref hausdorff.md >}}) space is Hausdorff and every subspace of a [regular]({{< ref regular.md >}}) space is regular.
 
-[Theorem 4.23:](\work.pdf#page=39) If $(Y, \T_Y)$ is a subspace of $(X, \T)$ where $Y$ is closed in $(X, \T)$ and $(X, \T)$ is [normal]({{< ref normal.md >}}), then $(Y, \T_Y)$ is normal as well. 
+[Theorem 4.23:](\work.pdf#page=37) If $(Y, \T_Y)$ is a subspace of $(X, \T)$ where $Y$ is closed in $(X, \T)$ and $(X, \T)$ is [normal]({{< ref normal.md >}}), then $(Y, \T_Y)$ is normal as well. 
 
-[Theorem 4.25:](\work.pdf#page=40) Let $(Y, \T_Y)$ be a subspace of $(X, \T)$ and let $A$ and $B$ be disjoint closed sets in $(Y, \T_Y)$. Then we have that $\overline{A} \cap B = A \cap \overline{B} = \emptyset$ where the [closures]({{< ref closure.md >}}) are taken in $(X, \T)$. That is, $A$ and $B$ are [separated]({{< ref completely_normal.md >}}).
+[Theorem 4.25:](\work.pdf#page=47) Let $(Y, \T_Y)$ be a subspace of $(X, \T)$ and let $A$ and $B$ be disjoint closed sets in $(Y, \T_Y)$. Then we have that $\overline{A} \cap B = A \cap \overline{B} = \emptyset$ where the [closures]({{< ref closure.md >}}) are taken in $(X, \T)$. That is, $A$ and $B$ are [separated]({{< ref completely_normal.md >}}).
 
 ## Examples
 The set $Y =$ $[0,1)$ is a subset of $\R$ and therefore it is a subspace of $\R$ with the [standard topology]({{< ref standard_topology.md >}}). The set $(-1,\frac{1}{2})$ is open in $\Rs$, so the set $Y \cap (-1, \frac{1}{2}) = [0, \frac{1}{2})$ is open in $(Y, \T_Y)$ even though it is not open in $\Rs$. The complement of $[0, \frac{1}{2})$ in $Y$ is $[ \frac{1}{2}, 1)$, which is therefore closed in $(Y, \T_Y)$ even though it is not closed in $\Rs$.

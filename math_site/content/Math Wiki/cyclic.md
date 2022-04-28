@@ -1,6 +1,6 @@
 ---
-title: "Cyclic Groups"
-date: 2021-12-06
+title: "Cyclic groups"
+date: 2021-12-22
 draft: false
 tags: ["algebra"]
 

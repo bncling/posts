@@ -1,6 +1,6 @@
 ---
-title: "Lagrange's Theorem"
-date: 2021-12-07
+title: "Lagrange's theorem"
+date: 2021-12-22
 draft: false
 tags: ["algebra"]
 

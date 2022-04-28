@@ -1,6 +1,6 @@
 ---
 title: "The product topology"
-date: 2021-07-17
+date: 2022-02-09
 draft: false
 tags: ["topology"]
 
@@ -16,12 +16,22 @@ Let $\{(X_\alpha, \T_\alpha)\}_{\alpha \in \lambda}$ be a collection of topologi
 
 As a consequence of the above theorem, if the collection $\{(X_\alpha, \T_\alpha)\}_{\alpha \in \lambda}$ is finite, the product topology on $\prod_{\alpha \in \lambda} X_\alpha$ is the same as the [box topology]({{< ref box_topology.md >}}).
 
-#### Separation properties
-- [$T_1$-space]({{< ref t1.md >}}) (since it's Hausdorff)
-- [Hausdorff]({{< ref hausdorff.md >}}) ([proof](\work.pdf#page=37))
-- [Regular]({{< ref regular.md >}}) ([proof](\work.pdf#page=38)) and a [$T_3$-space]({{< ref t3.md >}}).
+[Theorem 7.38:](\work.pdf#page=76) In the product topology, the projection functions are [surjective]({{< ref inj_surj_bij.md >}}), [continuous]({{< ref continuity.md >}}), and [open]({{< ref open_functions.md >}}).
 
+[Theorem 7.39:](\work.pdf#page=78) In fact, the product topology is the [coarsest]({{< ref fine_coarse.md >}}) topology on the product $\prod_{\alpha \in \lambda} X_\alpha$ that makes the projection functions continuous. 
+
+#### Separation properties
 Where we are considering the product topology on $\prod_{\alpha \in \lambda} X_\alpha$ and $\{(X_\alpha, \T_\alpha)\}_{\alpha \in \lambda}$ is a collection of topological spaces satisfying a particular property. That is, the product of Hausdorff spaces is Hausdorff, for example.
+
+- [$T_1$-space]({{< ref t1.md >}}) (since it's Hausdorff)
+- [Hausdorff]({{< ref hausdorff.md >}}) ([proof](\work.pdf#page=35))
+- [Regular]({{< ref regular.md >}}) ([proof](\work.pdf#page=35)) and a [$T_3$-space]({{< ref t3.md >}}).
+
+#### Countability Properties
+Where we are considering the product topology on $X \times Y$ for spaces $X$ and $Y$ satisfying a particular property.
+
+- [Separable]({{< ref separable_spaces.md >}})
+- [2<sup>nd</sup> countable]({{< ref second_countable.md >}})
 
 ## Examples
 [Theorem 3.36:](\work.pdf#page=28) The product topology on $\R^2$ is the same as the [standard topology]({{< ref standard_topology.md >}}) on $\R^2$.
