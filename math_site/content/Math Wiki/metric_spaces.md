@@ -1,6 +1,6 @@
 ---
 title: "Metric spaces"
-date: 2022-03-16
+date: 2022-05-08
 draft: false
 tags: ["topology"]
 
@@ -11,6 +11,8 @@ A [topological space]({{< ref topology_def.md >}}) $(X,\T)$ is written as $(X,d)
 
 ## Properties
 [Theorem 9.7:](\work.pdf#page=112) If $(X,\T)$ is a metric space and $Y$ is a subset of $X$, then $(Y,\T_Y)$ is a metric space (where $\T_Y$ is the [subspace topology]({{< ref top_subspaces.md >}}) inherited from $\T$). 
+
+[Lebesgue Number Theorem:](\work.pdf#page=123) If $A$ is a [compact]({{< ref compactness.md >}}) set in a metric space $X$ covered by the open cover $\{U_\alpha\}_{\alpha \in \lambda}$, then there exists a $\delta > 0$ such that for every point $p \in A$, the ball $B(p, \delta)$ is entirely contained in one of the sets $U_\alpha$ for some $\alpha \in \lambda$. 
 
 #### Separation Properties
 - [$T_1$-space]({{< ref t1.md >}}) (since it's Hausdorff)

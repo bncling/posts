@@ -70,6 +70,8 @@ draft: false
 [Hausdorff spaces]({{< ref hausdorff.md >}})\
 [Heredity]({{< ref heredity.md >}})\
 [Homeomorphisms]({{< ref homeomorphisms.md >}})\
+[Homotopy]({{< ref homotopy.md >}})\
+[Ideal of a set]({{< ref ideal_of_a_set.md >}})\
 [Ideals of a ring]({{< ref ideals.md >}})\
 [Identification spaces]({{< ref identification_spaces.md >}})\
 [Indiscrete topology]({{< ref indiscrete_topology.md >}})\
@@ -95,8 +97,10 @@ draft: false
 [Lists]({{< ref lists.md >}})\
 [Manifolds]({{< ref manifolds.md >}})\
 [Matrices]({{< ref matrices.md >}})\
+[Maximal ideals]({{< ref maximal_ideals.md >}})\
 [Metric spaces]({{< ref metric_spaces.md >}})\
 [Metrics on a set]({{< ref metrics.md >}})\
+[Monomial orderings]({{< ref monomial_orderings.md >}})\
 [My topology self-study work]({{< ref top_selfstudy.md >}})\
 [Natural numbers]({{< ref natural_numbers.md >}})\
 [Neighborhood bases]({{< ref neighborhood_basis.md >}})\
@@ -112,10 +116,11 @@ draft: false
 [Order topology]({{< ref order_topology.md >}})\
 [Path components]({{< ref path_components.md >}})\
 [Path connectedness]({{< ref path_connectedness.md >}})\
+[Paths]({{< ref paths.md >}})\
 [Permutation matrices]({{< ref perm_matrices.md >}})\
 [Permutations]({{< ref permutations.md >}})\
 [Polygonal presentations]({{< ref polygonal_presentations.md >}})\
-[Polynomial Rings]({{< ref poly_rings.md >}})\
+[Polynomial rings]({{< ref poly_rings.md >}})\
 [Polynomials]({{< ref polynomials.md >}})\
 [Power sets]({{< ref power_set.md >}})\
 [Prime numbers]({{< ref prime.md >}})\
@@ -124,6 +129,7 @@ draft: false
 [Quotient groups]({{< ref quotient_groups.md >}})\
 [Quotient spaces]({{< ref top_quotients.md >}})\
 [Quotients of vector spaces]({{< ref vspace_quotients.md >}})\
+[Radical ideals]({{< ref radical_ideals.md >}})\
 [Range]({{< ref range.md >}})\
 [Rank of a matrix]({{< ref matrix_rank.md >}})\
 [Rational numbers]({{< ref rational_numbers.md >}})\
@@ -141,6 +147,7 @@ draft: false
 [Solvable groups]({{< ref solvable_groups.md >}})\
 [Span]({{< ref span.md >}})\
 [Standard young tableaux]({{< ref syt.md >}})\
+[Star-like spaces]({{< ref star_like.md >}})\
 [Stirling numbers]({{< ref stirling_numbers.md >}})\
 [Subbasis for a topological space]({{< ref subbasis.md >}})\
 [Subgroups]({{< ref subgroups.md >}})\
@@ -149,6 +156,7 @@ draft: false
 [Subspaces of a vector space]({{< ref linalg_subspaces.md >}})\
 [Sums of subspaces]({{< ref subspace_sums.md >}})\
 [Systems of linear equations]({{< ref linear_systems.md >}})\
+[Testing things...]({{< ref knot_sketches.md >}})\
 [The Cantor set]({{< ref cantor_set.md >}})\
 [The Double Headed Snake]({{< ref double_headed_snake.md >}})\
 [The Euler characteristic]({{< ref euler_characteristic.md >}})\
@@ -165,12 +173,14 @@ draft: false
 [The dual basis]({{< ref dual_basis.md >}})\
 [The dual map]({{< ref dual_map.md >}})\
 [The dual space]({{< ref dual_space.md >}})\
+[The fundamental group]({{< ref fundamental_group.md >}})\
 [The general linear group]({{< ref gen_linear.md >}})\
 [The group of integers]({{< ref integer_group.md >}})\
 [The group of units]({{< ref unit_grp.md >}})\
 [The integers mod $n$]({{< ref ints_modn.md >}})\
 [The lexicographically ordered square]({{< ref lex_square.md >}})\
 [The product topology]({{< ref product_topology.md >}})\
+[The radical of an ideal]({{< ref radical_of_an_ideal.md >}})\
 [The special linear group]({{< ref special_linear.md >}})\
 [The standard topology]({{< ref standard_topology.md >}})\
 [The sticky bubble topology]({{< ref sticky_bubble.md >}})\
@@ -180,5 +190,6 @@ draft: false
 [Thomae's function]({{< ref thomae.md >}})\
 [Transpose of a matrix]({{< ref matrix_transpose.md >}})\
 [Triangulations]({{< ref triangulations.md >}})\
+[Variety of an ideal]({{< ref variety_of_an_ideal.md >}})\
 [Vector spaces]({{< ref vector_space.md >}})\
 [Wedge sums]({{< ref wedge_sum.md >}})\

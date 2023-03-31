@@ -1,15 +1,13 @@
 ---
 title: "Path connectedness"
-date: 2022-03-23
+date: 2022-05-09
 draft: false
 tags: ["topology"]
 
 ---
 
 ## Definitions
-Let $(X,\T)$ be a [topological space]({{< ref topology_def.md >}}). A **path** from $x$ to $y$ for points $x,y \in X$ is a [continuous]({{< ref continuity.md >}}) [function]({{< ref function.md >}}) $f: [0,1] \to X$ such that $f(0) = x$ and $f(1) = y$.
-
-A space $X$ is **path connected** if and only if for all $p,q \in X$ there exists a path from $p$ to $q$. 
+A [topological space]({{< ref topology_def.md >}}) $(X,\T)$ is **path connected** if and only if for all $p,q \in X$ there exists a [path]({{< ref paths.md >}}) from $p$ to $q$. 
 
 ## Properties
 [Theorem 8.35:](\work.pdf#page=114) All path connected spaces are [connected]({{< ref connectedness.md >}}). 

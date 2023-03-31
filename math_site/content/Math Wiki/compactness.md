@@ -1,6 +1,6 @@
 ---
 title: "Compactness"
-date: 2022-01-30
+date: 2022-05-08
 draft: false
 tags: ["topology"]
 
@@ -37,6 +37,8 @@ All compact spaces are [Lindelöf]({{< ref lindelöf.md >}}) and [countably comp
 [Alexander Subbasis Theorem:](\work.pdf#page=55) Let $\Sub$ be a [subbasis]({{< ref subbasis.md >}}) for a space $X$. Then $X$ is compact if and only if ever subbasic open cover has a finite subcover.
 
 [Tychonoff's Theorem:](\work.pdf#page=57) If $X_\alpha$ is compact for $\alpha \in \lambda$, then the space $\prod_{\alpha \in \lambda} X_\alpha$ with the [product topology]({{< ref product_topology.md >}}) is compact. 
+
+[Lebesgue Number Theorem:](\work.pdf#page=123) If $A$ is a compact set in a [metric space]({{< ref metric_spaces.md >}}) $X$ covered by the open cover $\{U_\alpha\}_{\alpha \in \lambda}$, then there exists a $\delta > 0$ such that for every point $p \in A$, the ball $B(p, \delta)$ is entirely contained in one of the sets $U_\alpha$ for some $\alpha \in \lambda$. 
 
 ## Examples
 In $\Rs$, the [Heine-Borel Theorem](\work.pdf#page=52) says that a subset $A \subset \R$ is compact if and only if it is closed and bounded, and this [extends](\work.pdf#page=55) to $\Rs^n$ as well.
